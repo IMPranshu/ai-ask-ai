@@ -83,7 +83,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from server i.e. AI Response
 
-  const response = await fetch('http://localhost:5666', {
+  const response = await fetch('https://ask-ai-0kx6.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
